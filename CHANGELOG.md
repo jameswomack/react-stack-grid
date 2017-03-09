@@ -1,3 +1,7 @@
+<a name="1.0.0-beta.1"></a>
+### 1.0.0-beta.1 (2017-03-08)
+
+
 ## 0.1.1
 
 * Fix transition animation when sort order changed
