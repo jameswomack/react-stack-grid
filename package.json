@@ -1,7 +1,7 @@
 {
-  "name": "react-stack-grid",
-  "version": "0.1.2",
-  "description": "Pinterest like layout components for React.js",
+  "name": "react-stack-grid-compat",
+  "version": "1.0.0-beta.0",
+  "description": "react-stack-grid, but compatible with React 0.14",
   "main": "lib/index.js",
   "scripts": {
     "start": "npm run watch",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsuyoshiwada/react-stack-grid.git"
+    "url": "git+https://github.com/jameswomack/react-stack-grid-compat.git"
   },
   "keywords": [
     "react",
@@ -34,9 +34,9 @@
   "author": "tsuyoshiwada",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsuyoshiwada/react-stack-grid/issues"
+    "url": "https://github.com/jameswomack/react-stack-grid-compat/issues"
   },
-  "homepage": "https://github.com/tsuyoshiwada/react-stack-grid#readme",
+  "homepage": "https://github.com/jameswomack/react-stack-grid-compat#readme",
   "files": [
     "lib",
     "test"
@@ -79,8 +79,8 @@
     "watchify": "^3.7.0"
   },
   "peerDependencies": {
-    "react": ">=0.15.0",
-    "react-dom": ">=0.15.0"
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0"
   },
   "dependencies": {
     "easy-css-transform-builder": "^0.0.2",
@@ -88,7 +88,7 @@
     "imagesloaded": "^4.1.1",
     "inline-style-prefixer": "^2.0.4",
     "invariant": "^2.2.2",
-    "react-addons-transition-group": "^15.3.2",
+    "react-addons-transition-group": ">=0.14.0",
     "react-sizeme": "^2.2.0",
     "shallowequal": "^0.2.2",
     "throttle-debounce": "^1.0.1"
