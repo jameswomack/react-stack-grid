@@ -80,6 +80,7 @@
   },
   "peerDependencies": {
     "react": ">=0.14.0",
+    "react-addons-transition-group": ">=0.14.0",
     "react-dom": ">=0.14.0"
   },
   "dependencies": {
@@ -88,7 +89,6 @@
     "imagesloaded": "^4.1.1",
     "inline-style-prefixer": "^2.0.4",
     "invariant": "^2.2.2",
-    "react-addons-transition-group": ">=0.14.0",
     "react-sizeme": "^2.2.0",
     "shallowequal": "^0.2.2",
     "throttle-debounce": "^1.0.1"
