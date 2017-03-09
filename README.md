@@ -1,4 +1,4 @@
-react-stack-grid
+react-stack-grid-compat
 ================
 
 [![Build Status](http://img.shields.io/travis/tsuyoshiwada/react-stack-grid.svg?style=flat-square)](https://travis-ci.org/tsuyoshiwada/react-stack-grid)
@@ -18,10 +18,10 @@ Pinterest like layout components for React.js.
 
 ## Install
 
-You can install the [react-stack-grid](https://www.npmjs.com/package/react-stack-grid) from [npm](https://www.npmjs.com/).
+You can install the [react-stack-grid-compat](https://www.npmjs.com/package/react-stack-grid-compat) from [npm](https://www.npmjs.com/).
 
 ```bash
-$ npm install react-stack-grid
+$ npm install react-stack-grid-compat
 ```
 
 
@@ -30,8 +30,8 @@ $ npm install react-stack-grid
 Following code is simplest usage.
 
 ```javascript
-import React, { Component } from "react-stack-grid";
-import StackGrid from "react-stack-grid";
+import React, { Component } from "react";
+import StackGrid from "react-stack-grid-compat";
 
 class MyComponent extends Component {
   render() {
@@ -200,7 +200,7 @@ Initialization of the project.
 
 ```bash
 $ cd /your/project/dir
-$ git clone https://github.com/tsuyoshiwada/react-stack-grid.git
+$ git clone https://github.com/jameswomack/react-stack-grid-compat.git
 ```
 
 Install some dependencies.
